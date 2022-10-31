@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(241, 233, 233)
+}
+.cabeza{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: beige;
+}
+.cabeza button{
+    border-radius: 30px;
+    padding: 0 1rem 0 1rem;
+    width: 17%;
+    border: 0;
+    background-color: white;
+    font-size: 1.05rem;
+}
+.cuerpo h1{
+    font-size: 3rem;
+}
+.cuerpo p{
+    font-size: 1.5rem;
+}
+.cuerpo button{
+    border-radius: 30px;
+    background-color: palevioletred;
+    padding: 0.7rem 2.7rem 0.7rem 2.7rem;
+    border: 0;
+    color: white;
+    font-size: 1.1rem;
+}
+main{
+    
+    width: 100%;
+    background-color: rgb(250, 225, 250);
+    border-radius: 15px;
+}
+.cuerpo{    
+    display: flex; 
+    padding: rem;
+    margin-top: 2rem;
+}
+.cuerpo img{
+    width: 60%;
+}
+.contArticulos{
+    /* background-color: violet; */
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.togheter{
+    /* border: 0.5px solid black; */
+    margin-top: 10%;
+    display: flex;
+    width: 70%;
+    border-radius: 30px;
+    background-color: rgb(245, 245, 233);
+}
+.togheter img{
+    width: 40%;
+    height: 40%;
+}
+.articulo{
+    padding: 3rem 7rem 2rem 5rem;
+    /* background-color: beige; */
+}
+.articulo p{
+    color: rgb(186, 186, 250);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.ultimo{
+    margin-bottom: 10%;
+}

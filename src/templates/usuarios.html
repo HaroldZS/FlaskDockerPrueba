@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limpio</title>
+    <link rel="stylesheet" href="{{ url_for("static", filename="stilos.css") }}">
+</head>
+<body>
+    
+    <main>
+        <header class="cabeza">
+            <img src="https://iman-mohammad.github.io/huddle-landing-page.github.io/resourses/images/logo.svg" alt="">
+            <button>Try It Free</button>
+        </header>
+    </main>
+
+    {%for usuario in usuarios%}
+    <div class="contArticulos" style="background-color: rgb(241, 233, 233);">
+        <div class="togheter" style="margin-top: 20px;">
+            <article class="articulo" style="padding-top: 0px; padding-bottom: 0px;">
+                <h2>Usuario: {{usuario.name}}</h2>
+                <h2>Edad: {{usuario.edad}}</h2>
+                <h2>Ciudad: {{usuario.ciudad}}</h2>
+                <p>{{usuario.carrera}}</p>
+
+            </article>
+        </div>
+    </div>
+    {%endfor%}
+    <br>
+
+</body>
+</html>
